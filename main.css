@@ -1,7 +1,35 @@
 body {
     background-color: lightblue;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .dinosaur {
   border: 2px solid yellow;
+}
+
+h4 {
+  margin: 0 auto;
+  padding: 15px 15px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+#div1 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.cards {
+  background-color: rgb(255, 255, 255);
+  margin: 5px 5px;
+  border: 1px solid black;
+  width: 300px;
+  box-shadow: 2px 2px;
+  text-align: center;
+}
+
+.dueDate {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
